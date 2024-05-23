@@ -1,0 +1,6 @@
+nav {
+  background-color: black !important;
+  width: 100% !important;
+  height: 100px !important;
+}
+<a <?php echo ($item['catId'] == $_SESSION['userId']) ? 'href="delete.php?id=' . $item['catId'] . '"' : 'disabled' ?> class="btn btn-danger danger">Delete</a>
